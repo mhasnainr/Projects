@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.common {
+    @apply absolute bg-black rounded-lg origin-bottom opacity-80;
+}

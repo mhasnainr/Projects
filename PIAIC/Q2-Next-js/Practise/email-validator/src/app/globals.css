@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.listing {
+  @apply list-none px-3
+}
+
+.listing-name {
+  @apply no-underline text-white hover:text-[#C0BDCD]
+}
+
+.container {
+  @apply m-auto max-w-[80vw] py-[9px] px-[15px]
+}
