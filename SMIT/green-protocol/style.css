@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+
+/* --------------------- ---------------------IntroBox --------------------------------------------------------------- */
+
+
+#introBox {
+    background-color: #00ae47;
+    height: 80vh;
+}
+
+/* .navbar {
+    background-color: #008d38;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+} */
+
+header {
+    background-color: #008d38;
+    color: #fff;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0% 10% 0% 5%;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.intro h2 {
+    text-align: center;
+    margin-bottom: 0%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Main-images {
+    width: 10%;
+    box-shadow: 0 0 10px #007000;
+    border-radius: 50%;
+}
+
+.dashes {
+    width: 10%;
+    margin: 0 15px;
+}
+
+
+/* --------------------- ---------------------Main Content --------------------------------------------------------------- */
+
+
+
+/* --------------------- ---------------------Problem ---------------------------- */
+
+#mainBox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.problem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.mainBox-headings h2 {
+    font-size: 40px;
+    color: #00ae47;
+    border-bottom: 5px solid #84d1a6;
+    padding-bottom: 10px;
+}
+
+.problem-details {
+    align-items: center;
+    display: flex;
+    margin-top: 1%;
+}
+
+.problem-content {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.problem-details img {
+    width: 15em;
+}
+
+
+/* --------------------- ---------------------Solution ---------------------------- */
+
+.solution {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.solution-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 99%;
+}
+
+.possible-solutions-A,
+.possible-solutions-B {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    height: 300px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.possible-solutions-A {
+    background-color: rgb(0, 191, 84);
+}
+
+.possible-solutions-B {
+    background-color: rgb(0, 159, 50);
+}
+
+.solution-images {
+    width: 120px;
+}
+
+.full-Images {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid #009f32;
+    position: relative;
+    width: 98%;
+}
+
+.Image-tag1,
+.Image-tag2 {
+    background-color: #00ae47;
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem;
+    position: absolute;
+}
+
+.Image-tag1 {
+    left: -2em;
+    top: 3em;
+}
+
+.Image-tag2 {
+    bottom: 3em;
+    right: -2em;
+}
+
+.all-Images {
+    background-color: gray;
+    height: 49.5%;
+    width: 49.5%;
+    margin: .25%;
+    object-fit: cover;
+}
+
+
+/* --------------------- ---------------------Business Model ---------------------------- */
+
+.business-Model {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.crowd-funding,
+.business-Images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.crowd-funding {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.business-Images {
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 30%;
+    align-items: center;
+    color: #00ae47;
+    font-size: 18px;
+}
+
+.mainBox-subHeading {
+    color: #00ae47;
+    font-size: 20px;
+    margin: 3em 0 1em;
+    text-align: center;
+}
+
+.funding-Images {
+    width: 200px;
+}
+
+/* --------------------- B.M: Example ---------------------------- */
+
+.example-Div1,
+example-Div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.example-Div1 {
+    align-items: center;
+}
+
+.example-Img {
+    height: 10em;
+}
+
+.arrow-Div {
+    color: #00ae47;
+    text-align: center;
+    width: 10%;
+}
+
+.example-Div2 {
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+.example-Img2 {
+    width: 12%;
+}
+
+.advantages-Section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 150px;
+    width: 80%;
+}
+
+.advantage1,
+.advantage2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    width: 50%;
+}
+
+.advantage1 {
+    background-color: #dcdcdc;
+}
+
+.advantage2 {
+    background-color: #00ae47;
+}
+
+.advantage-Img {
+    width: 15vh;
+}
+
+.advantage-Info,
+.advantage-Info-2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+}
+
+.advantage-Info {
+    color: #00ae47;
+}
+
+.advantage-Info-2 {
+    color: #fff;
+}
+
+
+/* --------------------- ---------------------Profit Distribution ---------------------------- */
+
+.profit-distribution {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10em;
+    width: 70%;
+}
+
+.profit-content {
+    display: flex;
+    margin-top: 3em;
+    width: 110%;
+}
+
+.profit-Box {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #fff;
+    height: 350px;
+    width: 30%;
+}
+
+.profit-Box img {
+    width: 50%;
+}
+
+
+/* --------------------- ---------------------Ending Note ---------------------------- */
+
+.footer {
+    background-color: #00ae47;
+}
