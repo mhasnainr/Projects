@@ -21,24 +21,22 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div className="">
-      <div className="container mx-auto p-4 flex items-center justify-around">
-        <div className="logo">
-          <a href="#">Logo</a>
-        </div>
-        <div className="navbar">
-          {links.map((link) => (
-            <NavLinks link={link} key={link.title} />
-          ))}
-          <div className="btn">
-            <button>
-              <a href="#">Login</a>
-            </button>
-            <button>
-              <a href="#">Join Us</a>
-            </button>
-          </div>
-        </div>
+    <div className="container mx-auto p-4 flex items-center justify-around">
+      <div className="logo text-white font-bold text-3xl">
+        <a href="#">Logo</a>
+      </div>
+      <div className="md:flex hidden navbar space-x-6 font-semibold text-white text-xl">
+        {links.map((link) => (
+          <NavLinks link={link} key={link.title} />
+        ))}
+      </div>
+      <div className="md:flex hidden space-x-9 font-semibold text-white text-lg">
+        <button>
+          <a href="#">Login</a>
+        </button>
+        <button className="bg-blue-400 p-3 px-5  rounded-s">
+          <a href="#">JOIN US</a>
+        </button>
       </div>
     </div>
   );
