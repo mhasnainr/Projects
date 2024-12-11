@@ -30,7 +30,7 @@ const Navbar = () => {
           <NavLinks link={link} key={link.title} />
         ))}
       </div>
-      <div className="md:flex hidden space-x-9 font-semibold text-white text-lg">
+      <div className="md:flex hidden space-x-11 font-semibold text-white text-lg">
         <button>
           <a href="#">Login</a>
         </button>

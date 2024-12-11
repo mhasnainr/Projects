@@ -27,31 +27,28 @@ export default function Home() {
           <h2 className="font-bold">training Courses</h2>
           <hr className="bg-red-600 h-1 w-12" />
           <p className="text-gray-500 font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            fugit eum numquam in, eaque nobis enim sint nam, et quis ut, quasi
-            incidunt officia quisquam maiores! Fugit facere iure aperiam.
+            The gradual accumulation of information about atomic and small-scale
+            behaviour...
           </p>
         </div>
 
         <div className="course-option bg-white text-black p-7 flex flex-col items-start space-y-5">
-          <div className="box h-16 w-16 bg-orange-400 rounded-lg"></div>
-          <h2 className="font-bold">training Courses</h2>
+          <div className="box h-16 w-16 bg-green-300 rounded-lg"></div>
+          <h2 className="font-bold">2,769 online courses</h2>
           <hr className="bg-red-600 h-1 w-12" />
           <p className="text-gray-500 font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            fugit eum numquam in, eaque nobis enim sint nam, et quis ut, quasi
-            incidunt officia quisquam maiores! Fugit facere iure aperiam.
+            The gradual accumulation of information about atomic and small-scale
+            behaviour...
           </p>
         </div>
 
-        <div className="course-option bg-white text-black p-7 flex flex-col items-start space-y-5">
-          <div className="box h-16 w-16 bg-orange-400 rounded-lg"></div>
+        <div className="course-option bg-blue-400 text-black p-7 flex flex-col items-start space-y-5">
+          <div className="box h-16 w-16 bg-white rounded-lg"></div>
           <h2 className="font-bold">training Courses</h2>
-          <hr className="bg-red-600 h-1 w-12" />
+          <hr className="bg-white h-1 w-12" />
           <p className="text-gray-500 font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            fugit eum numquam in, eaque nobis enim sint nam, et quis ut, quasi
-            incidunt officia quisquam maiores! Fugit facere iure aperiam.
+            The gradual accumulation of information about atomic and small-scale
+            behaviour...
           </p>
         </div>
       </div>
